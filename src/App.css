@@ -65,8 +65,8 @@ body {
 }
 
 ._navbar ul li {
-  background: #1fab89;
-  border: 4px solid #8cd3c4;
+  background: #4ca3dd;
+  border: 4px solid #c0d6e4;
   margin-left: 15px;
   border-radius: 14px;
   padding: 3px 7.5px;
@@ -76,7 +76,7 @@ body {
 }
 
 ._navbar ul li:hover {
-  background: #1d8067;
+  background: #80caf8;
 }
 
 ._navbar ul li a {
@@ -86,7 +86,7 @@ body {
 }
 
 .icon {
-  color: #1fab89;
+  color: #ffffff;
   font-size: 20px;
   cursor: pointer;
   display: none;
