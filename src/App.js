@@ -22,7 +22,7 @@ function App() {
 
   return (
     <main>
-      <section id="home"></section>
+      <section id="home">{/* isi */}</section>
     </main>
   );
 }
