@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // Responsive Navigasi Bar
+  const menu = document.querySelector(".menu-list");
+  const menuBtn = document.querySelector(".menu-btn");
+  const cencelBtn = document.querySelector(".cencel-btn");
+  const body = document.querySelector("body");
+
+  menuBtn.onclick = () => {
+    menu.classList.add("active");
+    menuBtn.classList.add("active");
+    body.classList.add("disabledScroll");
+  };
+
+  cencelBtn.onclick = () => {
+    menu.classList.remove("active");
+    menuBtn.classList.remove("active");
+    body.classList.remove("disabledScroll");
+  };
+  return <div className="App"></div>;
 }
 
 export default App;

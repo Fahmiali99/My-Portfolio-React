@@ -1,38 +1,230 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+._navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 0px 10px 0px;
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  background: #333333;
+  z-index: 2;
+}
+
+._navbar img {
+  width: 70px;
+  margin-left: 50px;
+}
+
+._navbar a {
+  text-decoration: none;
+}
+
+._navbar a h4 {
+  color: #222;
+  font-size: 23px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 25px;
+  margin-left: 15px;
+}
+
+._navbar a h6 {
+  color: #222;
+  font-size: 17px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 25px;
+  margin-left: 15px;
+}
+
+._navbar ul {
+  /* margin-top: -15px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: 30%; */
+  position: absolute;
+  right: 10%;
+}
+
+._navbar ul li {
+  background: #1fab89;
+  border: 4px solid #8cd3c4;
+  margin-left: 15px;
+  border-radius: 14px;
+  padding: 3px 7.5px;
+  display: inline-block;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+._navbar ul li:hover {
+  background: #1d8067;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+._navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.icon {
+  color: #1fab89;
+  font-size: 20px;
+  cursor: pointer;
+  display: none;
+}
+
+.icon.cencel-btn {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
+
+.icon.menu-btn {
+  position: absolute;
+  right: 30px;
+  top: 15px;
+  z-index: 0;
+}
+
+.icon-color {
+  color: #fff;
+}
+
+.icon.menu-btn.active {
+  display: none;
+}
+
+#profile {
+  border-radius: 50%;
+  /* position: relative; */
+  top: -5px;
+  /* left: 10%; */
+}
+
+#title {
   color: white;
+  /* position: absolute; */
+  /* top: -5px; */
+  left: 20%;
 }
 
-.App-link {
-  color: #61dafb;
+.account {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  /* background-color: #1fab89; */
+  position: relative;
+  float: left;
+  left: 75px;
+  top: -5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.namaku {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  float: top;
+  top: 2px;
+  /* background-color: #8cd3c4; */
+}
+
+@media screen and (max-width: 1024px) {
+  ._navbar ul {
+    margin-left: 10%;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Tablet and Mobile Version */
+@media screen and (max-width: 1024px) {
+  /* Responsive Navigation Bar */
+
+  ._navbar {
+    position: fixed;
+    height: 11%;
+  }
+
+  .account {
+    position: relative;
+    float: left;
+    left: 4px;
+    align-items: center;
+    top: -5px;
+  }
+
+  body.disabledScroll {
+    overflow: hidden;
+  }
+
+  body.disabledScroll .carousel {
+    z-index: -1;
+  }
+
+  ._navbar .menu-list {
+    position: fixed;
+    top: 0;
+    left: -110%;
+    height: 100vh;
+    width: 110%;
+    max-width: 500px;
+    background: #222;
+    display: block;
+    padding: 40px 0;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  ._navbar .menu-list.active {
+    left: -5%;
+  }
+
+  ._navbar ul {
+    margin-left: 0;
+  }
+
+  ._navbar ul li {
+    margin-left: 0;
+    display: block;
+    margin: 45px 150px;
+    border-radius: 14px;
+  }
+
+  .icon {
+    display: block;
+    margin-top: 15px;
+  }
+
+  ._navbar img {
+    width: 50px;
+    margin-left: 20px;
+  }
+
+  ._navbar a h4 {
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 20px;
+    margin-left: 13px;
+  }
+
+  ._navbar a h6 {
+    color: #222;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 20px;
+    margin-left: 13px;
   }
 }
