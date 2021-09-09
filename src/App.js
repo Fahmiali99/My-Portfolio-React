@@ -19,7 +19,12 @@ function App() {
     menuBtn.classList.remove("active");
     body.classList.remove("disabledScroll");
   };
-  return <div className="App"></div>;
+
+  return (
+    <main>
+      <section id="home"></section>
+    </main>
+  );
 }
 
 export default App;

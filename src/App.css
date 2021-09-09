@@ -236,3 +236,14 @@ body {
     margin-left: 13px;
   }
 }
+
+/* footer */
+.footer-color {
+  background-color: #222;
+}
+
+/* HOME */
+#home {
+  height: 100vh;
+  background-color: #55419c;
+}
