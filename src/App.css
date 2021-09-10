@@ -248,7 +248,7 @@ body {
 
 /* HOME */
 #home {
-  height: 78vh;
+  height: auto;
   background-color: #55419c;
 }
 
@@ -280,4 +280,16 @@ body {
   float: left;
   left: 72%;
   top: 16%;
+}
+
+.space-atas {
+  margin-top: 100px;
+}
+
+.kiri {
+  left: 15px;
+}
+
+.kanan {
+  right: 15px;
 }

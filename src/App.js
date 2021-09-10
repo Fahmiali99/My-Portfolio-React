@@ -23,13 +23,40 @@ function App() {
   return (
     <main>
       <section id="home">
-        <div class="container-kiri"></div>
+        <div class="row">
+          <div class="col-3 p-md-3  space-atas kiri">
+            <div class="card card-light">
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+            </div>
+          </div>
 
-        <div class="container-tengah"></div>
+          <div class="col-6 p-md-3 space-atas">
+            <div class="card card-light">
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+            </div>
+          </div>
 
-        <div class="container-tengah"></div>
-
-        <div class="container-kanan"></div>
+          <div class="col-3 p-md-3  space-atas kanan">
+            <div class="card card-light">
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
   );
