@@ -22,7 +22,15 @@ function App() {
 
   return (
     <main>
-      <section id="home">{/* isi */}</section>
+      <section id="home">
+        <div class="container-kiri"></div>
+
+        <div class="container-tengah"></div>
+
+        <div class="container-tengah"></div>
+
+        <div class="container-kanan"></div>
+      </section>
     </main>
   );
 }
