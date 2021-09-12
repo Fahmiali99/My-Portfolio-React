@@ -35,28 +35,28 @@ function App() {
                       <span class="title-head">Famework</span>
                       <br></br>
                       <a href="" class="subtitle text-muted">
-                        Lihat Selengkapnya <i class="fa fa-chevron-right"></i>
+                        See more <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
                     <li class="listgroup-items">
                       <span class="title-head">Web Developer</span>
                       <br></br>
                       <a href="" class="subtitle text-muted">
-                        Lihat Selengkapnya <i class="fa fa-chevron-right"></i>
+                        See more <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
                     <li class="listgroup-items">
                       <span class="title-head">Frontend Developer</span>
                       <br></br>
                       <a href="" class="subtitle text-muted">
-                        Lihat Selengkapnya <i class="fa fa-chevron-right"></i>
+                        See more <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
                     <li class="listgroup-items">
-                      <span class="title-head">BAckend Developer</span>
+                      <span class="title-head">Backend Developer</span>
                       <br></br>
                       <a href="" class="subtitle text-muted">
-                        Lihat Selengkapnya <i class="fa fa-chevron-right"></i>
+                        See more <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
                   </ul>
@@ -108,13 +108,36 @@ function App() {
           </div>
 
           <div class="col-3 p-md-3 space atas kanan">
-            <div class="card card-light content-warna">
-              <h1>Hello h1</h1>
-              <h1>Hello h1</h1>
-              <h1>Hello h1</h1>
-              <h1>Hello h1</h1>
-              <h1>Hello h1</h1>
-              <h1>Hello h1</h1>
+            <div class="card card-light content-warna p-md-3">
+              <h3 id="cate">Popular Post</h3>
+              <hr></hr>
+              <div class="isi-cate">
+                <ul class="listgroup-container">
+                  <li class="listgroup-items">
+                    <span class="title-head">What's React?</span>
+                    <br></br>
+                    <a href="#" class="subtitle text-muted">
+                      See more <i class="fa fa-chevron-right"></i>
+                    </a>
+                  </li>
+                  <li class="listgroup-items">
+                    <span class="title-head">How to use Laravel?</span>
+                    <br></br>
+                    <a href="#" class="subtitle text-muted">
+                      See more <i class="fa fa-chevron-right"></i>
+                    </a>
+                  </li>
+                  <li class="listgroup-items">
+                    <span class="title-head">
+                      How to be a Frontend Developer?
+                    </span>
+                    <br></br>
+                    <a href="#" class="subtitle text-muted">
+                      See more <i class="fa fa-chevron-right"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
