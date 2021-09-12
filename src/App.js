@@ -26,29 +26,37 @@ function App() {
         <div class="row content">
           <div class="col-3 p-md-3 space-atas kiri">
             <div class="card card-light content-warna">
-              <div class="container">
-                <h3>Category</h3>
+              <div class="container p-md-3">
+                <h3 id="cate">Category</h3>
                 <hr></hr>
                 <div class="isi-cate">
-                  <ul>
-                    <li>
-                      <a class="ct" href="#">
-                        Framework
+                  <ul class="listgroup-container">
+                    <li class="listgroup-items">
+                      <span class="title-head">Famework</span>
+                      <br></br>
+                      <a href="" class="subtitle text-muted">
+                        Lihat Selengkapnya <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
-                    <li>
-                      <a class="ct" href="#">
-                        Frontend
+                    <li class="listgroup-items">
+                      <span class="title-head">Web Developer</span>
+                      <br></br>
+                      <a href="" class="subtitle text-muted">
+                        Lihat Selengkapnya <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
-                    <li>
-                      <a class="ct" href="#">
-                        Backend
+                    <li class="listgroup-items">
+                      <span class="title-head">Frontend Developer</span>
+                      <br></br>
+                      <a href="" class="subtitle text-muted">
+                        Lihat Selengkapnya <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
-                    <li>
-                      <a class="ct" href="#">
-                        IOT
+                    <li class="listgroup-items">
+                      <span class="title-head">BAckend Developer</span>
+                      <br></br>
+                      <a href="" class="subtitle text-muted">
+                        Lihat Selengkapnya <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
                   </ul>

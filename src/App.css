@@ -314,13 +314,22 @@ ul {
   list-style: none;
 }
 
-.isi-cate {
-  font-size: 18px;
+#cate {
+  font-size: 20px;
 }
 
-.ct {
+.isi-cate {
+  font-size: 14px;
+}
+
+/* .ct {
   color: #fff;
 }
 .ct:hover {
   color: #4ca3dd;
+} */
+
+.subtitle {
+  font-weight: 200;
+  font-size: 12px;
 }
