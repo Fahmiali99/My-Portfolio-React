@@ -23,9 +23,42 @@ function App() {
   return (
     <main>
       <section id="home">
-        <div class="row">
-          <div class="col-3 p-md-3  space-atas kiri">
-            <div class="card card-light">
+        <div class="row content">
+          <div class="col-3 p-md-3 space-atas kiri">
+            <div class="card card-light content-warna">
+              <div class="container">
+                <h3>Category</h3>
+                <hr></hr>
+                <div class="isi-cate">
+                  <ul>
+                    <li>
+                      <a class="ct" href="#">
+                        Framework
+                      </a>
+                    </li>
+                    <li>
+                      <a class="ct" href="#">
+                        Frontend
+                      </a>
+                    </li>
+                    <li>
+                      <a class="ct" href="#">
+                        Backend
+                      </a>
+                    </li>
+                    <li>
+                      <a class="ct" href="#">
+                        IOT
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-6 p-md-3 space-atas tengah">
+            <div class="card card-light content-warna">
               <h1>Hello h1</h1>
               <h1>Hello h1</h1>
               <h1>Hello h1</h1>
@@ -33,10 +66,17 @@ function App() {
               <h1>Hello h1</h1>
               <h1>Hello h1</h1>
             </div>
-          </div>
 
-          <div class="col-6 p-md-3 space-atas">
-            <div class="card card-light">
+            <div class="card card-light mt-3 content-warna">
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+              <h1>Hello h1</h1>
+            </div>
+
+            <div class="card card-light mt-3 content-warna">
               <h1>Hello h1</h1>
               <h1>Hello h1</h1>
               <h1>Hello h1</h1>
@@ -47,7 +87,7 @@ function App() {
           </div>
 
           <div class="col-3 p-md-3  space-atas kanan">
-            <div class="card card-light">
+            <div class="card card-light content-warna">
               <h1>Hello h1</h1>
               <h1>Hello h1</h1>
               <h1>Hello h1</h1>

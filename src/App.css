@@ -243,13 +243,13 @@ body {
 
 /* footer */
 .footer-color {
-  background-color: #222;
+  background-color: #333333;
 }
 
 /* HOME */
 #home {
   height: auto;
-  background-color: #55419c;
+  background-color: #797979;
 }
 
 .container-kiri {
@@ -287,9 +287,40 @@ body {
 }
 
 .kiri {
+  left: 25px;
+}
+
+.tengah {
   left: 15px;
 }
 
 .kanan {
-  right: 15px;
+  right: -5px;
+}
+.content {
+  width: 100%;
+}
+
+.content-warna {
+  background-color: #363636;
+  color: #fff;
+}
+
+hr {
+  background-color: #6d6d6d;
+}
+
+ul {
+  list-style: none;
+}
+
+.isi-cate {
+  font-size: 18px;
+}
+
+.ct {
+  color: #fff;
+}
+.ct:hover {
+  color: #4ca3dd;
 }
