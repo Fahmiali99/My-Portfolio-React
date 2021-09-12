@@ -94,7 +94,20 @@ function App() {
             </div>
           </div>
 
-          <div class="col-3 p-md-3  space-atas kanan">
+          <div class="col-3 pencarian">
+            <div class="card card-light content-warna">
+              <div class="container cari">
+                <input
+                  type="text"
+                  class="form-control cc"
+                  name="search"
+                  placeholder="Search..."
+                ></input>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-3 p-md-3 space atas kanan">
             <div class="card card-light content-warna">
               <h1>Hello h1</h1>
               <h1>Hello h1</h1>

@@ -295,8 +295,29 @@ body {
 }
 
 .kanan {
-  right: -5px;
+  float: right;
+  right: 10px;
+  position: absolute;
+  top: 190px;
 }
+
+.pencarian {
+  right: -5px;
+  float: top;
+  top: 117px;
+}
+
+.cari {
+  height: autopx;
+  padding: 20px;
+}
+
+.cc {
+  height: 10%;
+  font-size: 15px;
+  background-color: #333333;
+}
+
 .content {
   width: 100%;
 }
