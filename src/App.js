@@ -34,28 +34,28 @@ function App() {
                     <li class="listgroup-items">
                       <span class="title-head">Famework</span>
                       <br></br>
-                      <a href="" class="subtitle text-muted">
+                      <a href="#" class="subtitle text-muted">
                         See more <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
                     <li class="listgroup-items">
                       <span class="title-head">Web Developer</span>
                       <br></br>
-                      <a href="" class="subtitle text-muted">
+                      <a href="#" class="subtitle text-muted">
                         See more <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
                     <li class="listgroup-items">
                       <span class="title-head">Frontend Developer</span>
                       <br></br>
-                      <a href="" class="subtitle text-muted">
+                      <a href="#" class="subtitle text-muted">
                         See more <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>
                     <li class="listgroup-items">
                       <span class="title-head">Backend Developer</span>
                       <br></br>
-                      <a href="" class="subtitle text-muted">
+                      <a href="#" class="subtitle text-muted">
                         See more <i class="fa fa-chevron-right"></i>
                       </a>
                     </li>

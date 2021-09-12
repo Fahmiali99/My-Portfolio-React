@@ -298,7 +298,7 @@ body {
   float: right;
   right: 10px;
   position: absolute;
-  top: 190px;
+  top: 200px;
 }
 
 .pencarian {
@@ -309,7 +309,7 @@ body {
 }
 
 .cari {
-  height: autopx;
+  height: auto;
   padding: 20px;
 }
 
