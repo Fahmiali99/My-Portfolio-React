@@ -387,3 +387,9 @@ h6 {
   font-style: normal;
   font-size: 15px;
 }
+
+#title-content {
+  font-size: 27px;
+  font-weight: 600;
+  letter-spacing: 0.03rem;
+}

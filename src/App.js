@@ -68,7 +68,7 @@ function App() {
           <div class="col-6 p-md-3 space-atas tengah">
             <div class="card card-light content-warna">
               <div class="cointainer p-md-3">
-                <h1>What's React?</h1>
+                <h1 id="title-content">What's React?</h1>
                 <hr></hr>
                 <div class="cointainer text-center ">
                   <img
@@ -96,7 +96,7 @@ function App() {
 
             <div class="card card-light mt-3 content-warna">
               <div class="cointainer p-md-3">
-                <h1>How to use Laravel?</h1>
+                <h1 id="title-content">How to use Laravel?</h1>
                 <hr></hr>
                 <div class="cointainer text-center mb-3">
                   <img
@@ -120,7 +120,7 @@ function App() {
 
             <div class="card card-light mt-3 content-warna">
               <div class="cointainer p-md-3">
-                <h1>How to be a Frontend Developer?</h1>
+                <h1 id="title-content">How to be a Frontend Developer?</h1>
                 <hr></hr>
                 <div class="cointainer text-center ">
                   <img
